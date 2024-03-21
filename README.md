@@ -66,7 +66,7 @@ equal to `currentUser` instead:
 ```js
 const currentUser = 'Grace Hopper';
 
-const welcomeMessage = currentUser;
+const welcomeMessage = 'Welcome to Flatbook, currentUser';
 ```
 
 When we rerun the tests, we still have two passing. But now the first and third
